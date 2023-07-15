@@ -324,6 +324,7 @@ body {
   .container {
     height: fit-content;
     gap: 2rem;
+    overflow: hidden;
   }
 
   .left {
