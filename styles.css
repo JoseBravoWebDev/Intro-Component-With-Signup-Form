@@ -345,7 +345,6 @@ body {
 /* Animations */ 
 
 .comeInLeft {
-  overflow: hidden;
   transform: translateX(-100%);
   opacity: 0;
   animation: comeInLeft 0.5s ease forwards;
@@ -359,7 +358,6 @@ body {
 }
 
 .comeInUp {
-  overflow: hidden;
   opacity: 0;
   transform: translateY(100%);
   animation: comeInUp 0.5s ease forwards;
@@ -373,7 +371,6 @@ body {
 }
 
 .comeInRight {
-  overflow: hidden;
   transform: translateX(100%);
   opacity: 0;
   animation: comeInRight 0.5s ease forwards;
@@ -387,7 +384,6 @@ body {
 }
 
 .fadeInDown {
-  overflow: hidden;
   opacity: 0;
   transform: translateY(-100%);
   animation: fadeInDown 1.5s ease forwards 1s;
