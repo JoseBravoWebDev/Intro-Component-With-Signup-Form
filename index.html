@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <!-- Settings -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Style and Site Icon -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+
+  <!-- Font Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Title and SEO -->
+  <title>Frontend Mentor | Intro Component With Signup Form</title>
+  <meta name="robots" content="index"/>
+</head>
+<!-- Body -->
+<body>
+  <!-- Header -->
+  <header>
+    
+  </header>
+  <!-- End Header -->
+  
+  <!-- Main Content -->
+  <main>
+    <section>
+      <div class="container flex">
+
+        <div class="left grid">
+          <div class="left-inner-container grid">
+            <h1 class="title comeInLeft">Learn to code by watching others</h1>
+            <p class="text comeInUp">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+          </div>
+        </div>
+
+        <div class="right grid">
+          <div class="right-inner-container grid">
+            <div class="free-trial fadeInDown box-shadow">
+              <p class="text"><span class="bold">Try it free 7 days</span> then $20/mo. thereafter</p>
+            </div>
+
+            <div class="form-container comeInRight grid box-shadow">
+              <form class="form-items grid" action="#">
+
+                <div class="input-zone">
+                  <label for="first-name" class="label">
+                    <input type="text" name="First Name" id="first-name" placeholder="First Name">
+                    <img class="error-icon" src="images/icon-error.svg" alt="error-icon">
+                  </label>
+                  <p class="error-text"></p>
+                </div>
+
+                <div class="input-zone">
+                  <label for="last-name" class="label">
+                    <input type="text" name="Last Name" id="last-name" placeholder="Last Name">
+                    <img class="error-icon" src="images/icon-error.svg" alt="error-icon">
+                  </label>
+                  <p class="error-text"></p>
+                </div>
+
+                <div class="input-zone">
+                  <label for="email" class="label">
+                    <input type="text" name="Email" id="email" placeholder="Email Address">
+                    <img class="error-icon" src="images/icon-error.svg" alt="error-icon">
+                  </label>
+                  <p class="error-text"></p>
+                </div>
+
+                <div class="input-zone">
+                  <label for="password" class="label" id="password">
+                    <input type="password" name="Password" id="password" placeholder="Password">
+                    <img class="error-icon" src="images/icon-error.svg" alt="error-icon">
+                  </label>
+                  <p class="error-text"></p>
+                </div>
+
+                <button class="submit-btn">Claim your free trial</button>
+              </form>
+              <p class="terms">By clicking the button, you are agreeing to our <a href="#" target="_blank">Terms and Services</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section> 
+  </main>
+  <!-- End Main Content -->
+  
+<!-- Footer -->
+  <footer>
+    <!-- <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/JoseBravoWebDev" target="_blank">José Bravo</a>.
+    </div> -->
+  </footer>
+<!-- End Footer -->
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
